@@ -19,6 +19,6 @@
 🤖[Natural Language Processing with Python](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Natural%20Language%20Processing%20with%20Python.pdf)<br>
 🤖[Python Data Science Handbook](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Python%20Data%20Science%20Handbook.pdf)<br>
 🤖[ThinkStats](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/ThinkStats.pdf)<br>
-🤖[Introduction to machine learning with python.part1](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part1.rar)<br>
-🤖[Introduction to machine learning with python.part2](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part2.rar)<br>
-🤖[Hundred page machine learning book](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Hundred%20page%20machine%20learning%20book.rar)<br>
+🤖[Introduction to machine learning with python.part1 (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part1.rar)<br>
+🤖[Introduction to machine learning with python.part2 (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part2.rar)<br>
+🤖[Hundred page machine learning book (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Hundred%20page%20machine%20learning%20book.rar)<br>
