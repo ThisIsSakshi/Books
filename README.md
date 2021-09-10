@@ -1,3 +1,3 @@
 # Books
 
-<a title="ML Book" href="/Books">
+[ML Book](https://github.com/abelljs)
