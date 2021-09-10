@@ -33,7 +33,7 @@
 📖[Cracking the Coding Interview By Gayle Laakmann McDowell (zip)](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
 <br>
 
-### Other Books
-📚[MCQ in CS.pdf](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/MCQ%20in%20CS.pdf)<br>
-📚[Pro GIT.pdf](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Pro%20GIT.pdf)<br>
-📚[The web application hackers handbook.pdf](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/The%20web%20application%20hackers%20handbook.pdf)<br>
+### Other Books:
+📚[MCQ in CS](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/MCQ%20in%20CS.pdf)<br>
+📚[Pro GIT](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Pro%20GIT.pdf)<br>
+📚[The web application hackers handbook](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/The%20web%20application%20hackers%20handbook.pdf)<br>
