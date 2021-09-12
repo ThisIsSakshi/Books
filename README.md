@@ -1,6 +1,6 @@
 # Books
 
-<details open>
+<details close>
 <summary> Python ❤️</summary>
   
 ❤️[Automate the boring stuff with python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)<br>
@@ -12,7 +12,7 @@
 <br>
 </details>
 
-<details open>
+<details close>
 <summary> Machine Learning 🤖</summary>
   
   
@@ -33,7 +33,7 @@
 <br>
  </details>
 
-<details open>
+<details close>
 <summary> Interview Preps 📖</summary>
 
   
@@ -45,7 +45,7 @@
 <br>
 </details>
 
-<details open>
+<details close>
 <summary> Other Books 📚</summary>
 
   
