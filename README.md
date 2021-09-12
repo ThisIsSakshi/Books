@@ -23,6 +23,7 @@
 🤖[Introduction to machine learning with python.part1 (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part1.rar)<br>
 🤖[Introduction to machine learning with python.part2 (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part2.rar)<br>
 🤖[Hundred page machine learning book (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Hundred%20page%20machine%20learning%20book.rar)<br>
+🤖[Python-for-Data-Analysis](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Python-for-Data-Analysis.pdf)<br>
 <br>
 
 ### Interview Preps:
