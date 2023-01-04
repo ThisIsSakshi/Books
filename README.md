@@ -1,5 +1,7 @@
 # Books
 
+## Few books to read when bored
+
 <details close>
 <summary> Python ❤️</summary>
   
@@ -9,6 +11,7 @@
 ❤️[ Learn Python 3 the Hard Way](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)<br>
 ❤️[ Python cookbook](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)<br>
 ❤️[ Think Python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
+❤️[ Python Tricks the book]()<br>
 </details>
 
 <details close>
@@ -66,9 +69,9 @@
 📚[ MCQ in CS](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/MCQ%20in%20CS.pdf)<br>
 📚[ Pro GIT](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Pro%20GIT.pdf)<br>
 📚[ The web application hackers handbook](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/The%20web%20application%20hackers%20handbook.pdf)<br>
-📚[ Excel Formulas]()<br>
-📚[ excel-1]()<br>
-📚[ Microsoft Excel for Beginners]()<br>
-📚[ Problem Solving Tools]()<br>
-📚[ SDE-SHEET]()<br>
+📚[ Excel Formulas](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Excel%20Formulas.pdf)<br>
+📚[ excel-1](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/excel-1.pdf)<br>
+📚[ Microsoft Excel for Beginners](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Microsoft%20Excel%20for%20Beginners.pdf)<br>
+📚[ Problem Solving Tools](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Problem%20Solving%20Tools.pdf)<br>
+📚[ SDE-SHEET](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/SDE-SHEET.docx)<br>
 </details>
