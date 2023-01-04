@@ -41,21 +41,20 @@
 🤖[ Machine Learning Projects Python](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Machine%20Learning%20Projects%20Python.pdf?raw=true)<br>
 🤖[ PracticalStatistics](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/PracticalStatistics.pdf)<br>
 🤖[ Probability](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Probability.pdf)<br>
-<br>
+
  </details>
 
 <details close>
 <summary> System Design 💻</summary>
   
-💻[ System Design Handbook - Aman Barnwal]()<br>
-💻[ System Design Interview Prep Notes - Revanth Murigipudi]()<br>
-💻[ System Desing Interview Prep]()<br>
+💻[ System Design Handbook - Aman Barnwal](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Design%20Handbook%20-%20Aman%20Barnwal.pdf)<br>
+💻[ System Design Interview Prep Notes - Revanth Murigipudi](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Design%20Interview%20Prep%20Notes%20-%20Revanth%20Murigipudi.pdf)<br>
+💻[ System Desing Interview Prep](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Desing%20Interview%20Prep.pdf)<br>
 
 </details>
 
 <details close>
 <summary> Interview Preps 📖</summary>
-
   
 📖[ 50-Coding-Interview-Questions](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/50-Coding-Interview-Questions.pdf)<br>
 📖[ Cracking the coding interview 6th edition (zip)](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
@@ -67,14 +66,12 @@
 📖[ Scientific Programming](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Scientific%20Programming.pdf)<br>
 📖[ Software Engineering at Google](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Software%20Engineering%20at%20Google.pdf)<br>
 📖[ SQL Tutorial](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL%20Tutorial.pdf)<br>
-📖[ SQL](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL.pdf)<br>
+📖[ SQL](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL.pdf)
 <br>
 </details>
-
 <details close>
 <summary> Other Books 📚</summary>
 
-  
 📚[ MCQ in CS](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/MCQ%20in%20CS.pdf)<br>
 📚[ Pro GIT](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Pro%20GIT.pdf)<br>
 📚[ The web application hackers handbook](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/The%20web%20application%20hackers%20handbook.pdf)<br>
@@ -88,11 +85,11 @@
 <details close>
 <summary> Timepass 🤗</summary>
   
-🤗[ Atomic Habits by James Clear]()<br>
-🤗[ Ikigai]()<br>
-🤗[ Rework]()<br>
-🤗[ Rich Dad Poor Dad]()<br>
-🤗[ The 5 AM Club - Robin Sharma]()<br>
-🤗[ The Compound Effect - Darren hardy]()<br>
+🤗[ Atomic Habits by James Clear](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Atomic%20Habits%20by%20James%20Clear.pdf)<br>
+🤗[ Ikigai](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Ikigai.pdf)<br>
+🤗[ Rework](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Rework.pdf)<br>
+🤗[ Rich Dad Poor Dad](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Rich%20Dad%20Poor%20Dad.pdf)<br>
+🤗[ The 5 AM Club - Robin Sharma](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%205%20AM%20Club%20-%20Robin%20Sharma.pdf)<br>
+🤗[ The Compound Effect - Darren hardy](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
 
 </details>
