@@ -2,13 +2,19 @@
 
 <details close>
 <summary> Python ❤️</summary>
-  
-❤️[Automate the boring stuff with python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)<br>
-❤️[Hacking Secret ciphers with python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)<br>
-❤️[Invent with python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)<br>
-❤️[Learn Python 3 the Hard Way](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)<br>
-❤️[Python cookbook](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)<br>
-❤️[Think Python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
+<br>
+
+[<img alt = "Automate the boring stuff with python" src="icons/Automate the boring stuff with python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)<br>
+
+[<img alt = "Hacking Secret ciphers with python" src="icons/Hacking Secret ciphers with python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)<br>
+
+[<img alt = "Invent with python" src="icons/Invent with python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)<br>
+
+[<img alt = "Learn Python 3 the Hard Way" src="icons/Learn Python 3 the Hard Way.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)<br>
+
+[<img alt = "Python cookbook" src="icons/Python cookbook.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)<br>
+
+[<img alt = "Think Python" src="icons/Think Python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
 <br>
 </details>
 
@@ -38,9 +44,12 @@
 
   
 📖[50-Coding-Interview-Questions](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/50-Coding-Interview-Questions.pdf)<br>
+
 📖[Cracking the coding interview 6th edition]()<br>
 📖[FAANG](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/FAANG.pdf)<br>
+
 📖[The Self-Taught Programmer](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/The%20Self-Taught%20Programmer.pdf)<br>
+
 📖[Cracking the Coding Interview By Gayle Laakmann McDowell (zip)](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
 <br>
 </details>
