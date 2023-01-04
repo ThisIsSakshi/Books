@@ -3,7 +3,8 @@
 <details close>
 <summary> Python ❤️</summary>
 <br>
-[<img alt = "Automate the boring stuff with python" src="/Users/sakshi/Documents/git_practice/Books/icons/Automate the boring stuff with python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)<br>
+
+[<img alt = "Automate the boring stuff with python" src="icons/Automate the boring stuff with python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)<br>
 
 [<img alt = "Hacking Secret ciphers with python" src="icons/Hacking Secret ciphers with python.jpg" width="170px" />](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)<br>
 
