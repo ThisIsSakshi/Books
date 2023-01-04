@@ -29,6 +29,15 @@
 🤖[ Introduction to machine learning with python.part2 (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Introduction%20to%20machine%20learning%20with%20python.part2.rar)<br>
 🤖[ Hundred page machine learning book (zip)](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Hundred%20page%20machine%20learning%20book.rar)<br>
 🤖[ Python-for-Data-Analysis](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Python-for-Data-Analysis.pdf)<br>
+🤖[ 800 Data Science Questions]()<br>
+🤖[ AI CheatSheet]()<br>
+🤖[ Approaching almost any Machine Learning problem]()<br>
+🤖[ Data Engineering Cookbook]()<br>
+🤖[ ESLII]()<br>
+🤖[ Interview Questions]()<br>
+🤖[ Machine Learning Projects Python]()<br>
+🤖[ PracticalStatistics]()<br>
+🤖[ Probability]()<br>
 <br>
  </details>
 
@@ -41,12 +50,12 @@
 📖[ FAANG](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/FAANG.pdf)<br>
 📖[ The Self-Taught Programmer](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/The%20Self-Taught%20Programmer.pdf)<br>
 📖[ Cracking the Coding Interview By Gayle Laakmann McDowell (zip)](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
-📖[Competitive Programmer_s Handbook]()<br>
-📖[leetcode_interview_questions]()<br>
-📖[Scientific Programming]()<br>
-📖[Software Engineering at Google]()<br>
-📖[SQL Tutorial]()<br>
-📖[SQL]()<br>
+📖[ Competitive Programmer_s Handbook](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Competitive%20Programmer_s%20Handbook.pdf)<br>
+📖[ leetcode_interview_questions](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/leetcode_interview_questions.pdf)<br>
+📖[ Scientific Programming](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Scientific%20Programming.pdf)<br>
+📖[ Software Engineering at Google](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Software%20Engineering%20at%20Google.pdf)<br>
+📖[ SQL Tutorial](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL%20Tutorial.pdf)<br>
+📖[ SQL](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL.pdf)<br>
 <br>
 </details>
 
