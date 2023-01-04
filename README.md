@@ -11,7 +11,7 @@
 ❤️[ Learn Python 3 the Hard Way](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)<br>
 ❤️[ Python cookbook](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)<br>
 ❤️[ Think Python](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
-❤️[ Python Tricks the book]()<br>
+❤️[ Python Tricks the book](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
 </details>
 
 <details close>
@@ -45,6 +45,15 @@
  </details>
 
 <details close>
+<summary> System Design 💻</summary>
+  
+💻[ System Design Handbook - Aman Barnwal]()<br>
+💻[ System Design Interview Prep Notes - Revanth Murigipudi]()<br>
+💻[ System Desing Interview Prep]()<br>
+
+</details>
+
+<details close>
 <summary> Interview Preps 📖</summary>
 
   
@@ -74,4 +83,16 @@
 📚[ Microsoft Excel for Beginners](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Microsoft%20Excel%20for%20Beginners.pdf)<br>
 📚[ Problem Solving Tools](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Problem%20Solving%20Tools.pdf)<br>
 📚[ SDE-SHEET](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/SDE-SHEET.docx)<br>
+</details>
+
+<details close>
+<summary> Timepass 🤗</summary>
+  
+🤗[ Atomic Habits by James Clear]()<br>
+🤗[ Ikigai]()<br>
+🤗[ Rework]()<br>
+🤗[ Rich Dad Poor Dad]()<br>
+🤗[ The 5 AM Club - Robin Sharma]()<br>
+🤗[ The Compound Effect - Darren hardy]()<br>
+
 </details>
