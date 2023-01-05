@@ -6,19 +6,19 @@
 <summary> Python ❤️</summary>
 <br/>
 
-❤️[<img alt="Automate the boring stuff with python" title="Automate the boring stuff with python" src="https://m.media-amazon.com/images/I/715PNi5Wa2L.jpg" width="198" /> ](https://github.com/ThisIsSakshi)
+❤️[<img alt="Automate the boring stuff with python" title="Automate the boring stuff with python" src="https://m.media-amazon.com/images/I/715PNi5Wa2L.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)
 
-❤️[![Hacking Secret ciphers with python](icons%2FPython%20Love%2FHacking%20Secret%20ciphers%20with%20python.jpg "Hacking Secret ciphers with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)
+❤️[<img alt="Hacking Secret ciphers with python" title="Hacking Secret ciphers with python" src="https://m.media-amazon.com/images/I/51P-UmhLVtL._SY445_SX342_QL70_ML2_.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)
 
-❤️[![Invent with python](icons%2FPython%20Love%2FInvent%20with%20python.jpg "Invent with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)
+❤️[<img alt="Invent with python" title="Invent with python" src="https://inventwithpython.com/images/cover_invent4th_thumb.webp" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)
 
-❤️[![Learn Python 3 the Hard Way](icons%2FPython%20Love%2FLearn%20Python%203%20the%20Hard%20Way.jpg "Learn Python 3 the Hard Way")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)
+❤️[<img alt="Learn Python 3 the Hard Way" title="Learn Python 3 the Hard Way" src="https://m.media-amazon.com/images/I/81cScQew6NL.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)
 
-❤️[![icons%2FPython%20Love%2FPython%20cookbook.jpg](icons%2FPython%20Love%2FPython%20cookbook.jpg "Python cookbook")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)
+❤️[<img alt="Python cookbook" title="Python cookbook" src="https://m.media-amazon.com/images/I/71GgAFsrHxL.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)
 
-❤️[![icons%2FPython%20Love%2FThink%20Python.jpg](icons%2FPython%20Love%2FThink%20Python.jpg "Think Python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)
+❤️[<img alt="Think Python" title="Think Python" src="https://m.media-amazon.com/images/I/71ND9kxGLGL.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)
 
-❤️[![icons%2FPython%20Love%2FPython%20Tricks%20the%20book.jpeg](icons%2FPython%20Love%2FPython%20Tricks%20the%20book.jpeg "Python Tricks the book")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
+❤️[<img alt="Python Tricks the book" title="Python Tricks the book" src="https://m.media-amazon.com/images/I/61k7Z74UuZL.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
 </details>
 
 <details close>
