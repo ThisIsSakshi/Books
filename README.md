@@ -6,7 +6,7 @@
 <summary> Python ❤️</summary>
 <br/>
 
-❤️[![Automate the boring stuff with python](icons%2FPython%20Love%2FAutomate%20the%20boring%20stuff%20with%20python.jpg "Automate the boring stuff with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)
+❤️[<img alt="Automate the boring stuff with python" title="Automate the boring stuff with python" src="https://m.media-amazon.com/images/I/715PNi5Wa2L.jpg" width="198" /> ](https://github.com/ThisIsSakshi)
 
 ❤️[![Hacking Secret ciphers with python](icons%2FPython%20Love%2FHacking%20Secret%20ciphers%20with%20python.jpg "Hacking Secret ciphers with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)
 
