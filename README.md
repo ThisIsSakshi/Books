@@ -21,7 +21,7 @@
 ❤️[<img alt="Python Tricks the book" title="Python Tricks the book" src="https://m.media-amazon.com/images/I/61k7Z74UuZL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
 </details>
 
-<!-- <details close> -->
+<details close>
 <summary> Machine Learning 🤖</summary>
 </br>
 
