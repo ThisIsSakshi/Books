@@ -10,7 +10,7 @@
 
 ❤️[<img alt="Hacking Secret ciphers with python" title="Hacking Secret ciphers with python" src="https://m.media-amazon.com/images/I/51P-UmhLVtL._SY445_SX342_QL70_ML2_.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)
 
-❤️[<img alt="Invent with python" title="Invent with python" src="https://inventwithpython.com/images/cover_invent4th_thumb.webp" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)
+❤️[<img alt="Invent with python" title="Invent with python" src="https://m.media-amazon.com/images/I/91nB+9rvjsL.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)
 
 ❤️[<img alt="Learn Python 3 the Hard Way" title="Learn Python 3 the Hard Way" src="https://m.media-amazon.com/images/I/81cScQew6NL.jpg" width="198" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)
 
