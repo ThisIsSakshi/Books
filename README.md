@@ -6,13 +6,13 @@
 <summary> Python ❤️</summary>
 <br/>
 
-❤️[![icons%2FPython%20Love%2FAutomate%20the%20boring%20stuff%20with%20python.jpg](icons%2FPython%20Love%2FAutomate%20the%20boring%20stuff%20with%20python.jpg "Automate the boring stuff with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)
+❤️[![Automate the boring stuff with python](icons%2FPython%20Love%2FAutomate%20the%20boring%20stuff%20with%20python.jpg "Automate the boring stuff with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Automate%20the%20boring%20stuff%20with%20python.pdf)
 
-❤️[![icons%2FPython%20Love%2FHacking%20Secret%20ciphers%20with%20python.jpg](icons%2FPython%20Love%2FHacking%20Secret%20ciphers%20with%20python.jpg "Hacking Secret ciphers with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)
+❤️[![Hacking Secret ciphers with python](icons%2FPython%20Love%2FHacking%20Secret%20ciphers%20with%20python.jpg "Hacking Secret ciphers with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Hacking%20Secret%20ciphers%20with%20python.pdf)
 
-❤️[![icons%2FPython%20Love%2FInvent%20with%20python.jpg](icons%2FPython%20Love%2FInvent%20with%20python.jpg "Invent with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)
+❤️[![Invent with python](icons%2FPython%20Love%2FInvent%20with%20python.jpg "Invent with python")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Invent%20with%20python.pdf)
 
-❤️[![icons%2FPython%20Love%2FLearn%20Python%203%20the%20Hard%20Way.jpg](icons%2FPython%20Love%2FLearn%20Python%203%20the%20Hard%20Way.jpg "Learn Python 3 the Hard Way")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)
+❤️[![Learn Python 3 the Hard Way](icons%2FPython%20Love%2FLearn%20Python%203%20the%20Hard%20Way.jpg "Learn Python 3 the Hard Way")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Learn%20Python%203%20the%20Hard%20Way.pdf)
 
 ❤️[![icons%2FPython%20Love%2FPython%20cookbook.jpg](icons%2FPython%20Love%2FPython%20cookbook.jpg "Python cookbook")](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20cookbook.pdf)
 
