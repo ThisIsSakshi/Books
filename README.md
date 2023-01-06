@@ -87,11 +87,11 @@
 💻</summary>
   
 
-💻[<img alt="" title="" src="" width="150" /> ]( "System Design Handbook - Aman Barnwal")](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Design%20Handbook%20-%20Aman%20Barnwal.pdf)<br>
+💻[<img alt="System Design Handbook - Aman Barnwal" title="System Design Handbook - Aman Barnwal" src="https://user-images.githubusercontent.com/22995434/156885990-8bf5fc3a-d323-48c4-9a60-228a30665abc.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Design%20Handbook%20-%20Aman%20Barnwal.pdf)<br>
 
-💻[<img alt="" title="" src="" width="150" /> ]( "System Design Interview Prep Notes - Revanth Murigipudi")](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Design%20Interview%20Prep%20Notes%20-%20Revanth%20Murigipudi.pdf)<br>
+💻[<img alt="System Design Interview Prep Notes - Revanth Murigipudi" title="System Design Interview Prep Notes - Revanth Murigipudi" src="https://m.media-amazon.com/images/I/31wqdTUjz2L._AC_SY780_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Design%20Interview%20Prep%20Notes%20-%20Revanth%20Murigipudi.pdf)<br>
 
-💻[<img alt="" title="" src="" width="150" /> ]( "System Desing Interview Prep")](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Desing%20Interview%20Prep.pdf)<br>
+💻[<img alt="System Desing Interview Prep" title="System Desing Interview Prep" src="https://m.media-amazon.com/images/I/51xUZItrHJL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/System%20Design%20%F0%9F%92%BB/System%20Desing%20Interview%20Prep.pdf)<br>
 
 </details>
 
