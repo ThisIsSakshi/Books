@@ -74,11 +74,11 @@
 
 🤖[<img alt="Interview Questions" title="Interview Questions" src="https://static.javatpoint.com/interview/images/machine-learning-interview-questions.png" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Interview%20Questions.pdf)<br>
 
-🤖[<img alt="" title="" src="" width="150" /> ][]( "Machine Learning Projects Python")](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Machine%20Learning%20Projects%20Python.pdf?raw=true)<br>
+🤖[<img alt="Machine Learning Projects Python" title="Machine Learning Projects Python" src="https://www.freetechbooks.com/uploads/1595756320-machine-learning-projects-python%201200x.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Machine%20Learning%20Projects%20Python.pdf?raw=true)<br>
 
-🤖[<img alt="" title="" src="" width="150" /> ][]( "PracticalStatistics")](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/PracticalStatistics.pdf)<br>
+🤖[<img alt="Practical Statistics for Data Scientists" title="Practical Statistics for Data Scientists" src="https://m.media-amazon.com/images/I/91-41U+btKL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/PracticalStatistics.pdf)<br>
 
-🤖[<img alt="" title="" src="" width="150" /> ][]( "Probability")](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Probability.pdf)<br>
+🤖[<img alt="Probability" title="Probability" src="https://open.lib.umn.edu/app/uploads/sites/218/2019/04/probability-cover2.png" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Probability.pdf)<br>
 
  </details>
 
