@@ -96,31 +96,30 @@
 </details>
 
 <details close>
-<summary> Interview Preps 
-📖</summary>
+<summary> Interview Preps 📖</summary>
   
 
-📖[<img alt="" title="" src="" width="150" /> ]( "50-Coding-Interview-Questions")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/50-Coding-Interview-Questions.pdf)<br>
+📖[<img alt="50-Coding-Interview-Questions bytebybyte" title="50-Coding-Interview-Questions bytebybyte" src="https://www.byte-by-byte.com/wp-content/uploads/elementor/thumbs/mock07-nzqomv1nub37cxcx64brhzejzaeipl4wanopd239fs.png" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/50-Coding-Interview-Questions.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "Cracking the coding interview 6th edition (zip)")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
+📖[<img alt="Cracking the coding interview 6th edition (zip)" title="Cracking the coding interview 6th edition (zip)" src="https://m.media-amazon.com/images/I/41oYsXjLvZL._SX348_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "FAANG")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/FAANG.pdf)<br>
+📖[<img alt="FAANG" title="FAANG" src="https://m.media-amazon.com/images/I/41bKwJxRrJL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/FAANG.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "The Self-Taught Programmer")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/The%20Self-Taught%20Programmer.pdf)<br>
+📖[<img alt="The Self-Taught Programmer" title="The Self-Taught Programmer" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588831465l/51941365.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/The%20Self-Taught%20Programmer.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "Cracking the Coding Interview By Gayle Laakmann McDowell (zip)")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
+📖[<img alt="Cracking the Coding Interview By Gayle Laakmann McDowell (zip)" title="Cracking the Coding Interview By Gayle Laakmann McDowell (zip)" src="https://m.media-amazon.com/images/I/41zgzVe8H4L.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20Coding%20Interview%20By%20Gayle%20Laakmann%20McDowell.rar)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "Competitive Programmer_s Handbook")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Competitive%20Programmer_s%20Handbook.pdf)<br>
+📖[<img alt="Competitive Programmer_s Handbook" title="Competitive Programmer_s Handbook" src="https://www.dbooks.org/img/books/5651943146.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Competitive%20Programmer_s%20Handbook.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "leetcode_interview_questions")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/leetcode_interview_questions.pdf)<br>
+📖[<img alt="leetcode_interview_questions" title="leetcode_interview_questions" src="https://m.media-amazon.com/images/I/41dB8BrX38L._SX342_SY445_QL70_ML2_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/leetcode_interview_questions.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "Scientific Programming")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Scientific%20Programming.pdf)<br>
+📖[<img alt="Scientific Programming" title="Scientific Programming" src="https://m.media-amazon.com/images/I/41IEaLcY0-L._SX328_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Scientific%20Programming.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "Software Engineering at Google")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Software%20Engineering%20at%20Google.pdf)<br>
+📖[<img alt="Software Engineering at Google" title="Software Engineering at Google" src="https://m.media-amazon.com/images/I/41uvuuFt06S._SX379_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Software%20Engineering%20at%20Google.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "SQL Tutorial")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL%20Tutorial.pdf)<br>
+📖[<img alt="SQL Tutorial" title="SQL Tutorial" src="https://cdn.hackr.io/uploads/posts/attachments/sql-beginner-s-guide-7-day-crash-course.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL%20Tutorial.pdf)<br>
 
-📖[<img alt="" title="" src="" width="150" /> ]( "SQL")](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL.pdf)
+📖[<img alt="SQL" title="SQL" src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/SQL-in-10-Minutes.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL.pdf)
 <br>
 </details>
 <details close>
