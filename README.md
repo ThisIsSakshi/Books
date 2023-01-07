@@ -1,6 +1,6 @@
 # Books
 
-## Few books to read when bored
+## Few books and resources to read
 
 <details close>
 <summary> Python ❤️</summary>
@@ -142,20 +142,19 @@
 
 
 <details close>
-<summary> Timepass 
-🤗</summary>
+<summary> Timepass 🤗</summary>
   
 
-🤗[<img alt="" title="" src="" width="150" /> ]( "Atomic Habits by James Clear")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Atomic%20Habits%20by%20James%20Clear.pdf)<br>
+🤗[<img alt="Atomic Habits by James Clear" title="Atomic Habits by James Clear" src="https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" width="150" /> ]( "Atomic Habits by James Clear")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Atomic%20Habits%20by%20James%20Clear.pdf)<br>
 
-🤗[<img alt="" title="" src="" width="150" /> ]( "Ikigai")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Ikigai.pdf)<br>
+🤗[<img alt="Ikigai" title="Ikigai" src="https://m.media-amazon.com/images/I/814L+vq01mL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Ikigai.pdf)<br>
 
-🤗[<img alt="" title="" src="" width="150" /> ]( "Rework")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Rework.pdf)<br>
+🤗[<img alt="Rework" title="Rework" src="https://m.media-amazon.com/images/I/41jq-ouUBkL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Rework.pdf)<br>
 
-🤗[<img alt="" title="" src="" width="150" /> ]( "Rich Dad Poor Dad")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Rich%20Dad%20Poor%20Dad.pdf)<br>
+🤗[<img alt="Rich Dad Poor Dad" title="Rich Dad Poor Dad" src="https://m.media-amazon.com/images/I/51u8ZRDCVoL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Rich%20Dad%20Poor%20Dad.pdf)<br>
 
-🤗[<img alt="" title="" src="" width="150" /> ]( "The 5 AM Club - Robin Sharma")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%205%20AM%20Club%20-%20Robin%20Sharma.pdf)<br>
+🤗[<img alt="The 5 AM Club - Robin Sharma" title="The 5 AM Club - Robin Sharma" src="https://m.media-amazon.com/images/I/71zytzrg6lL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%205%20AM%20Club%20-%20Robin%20Sharma.pdf)<br>
 
-🤗[<img alt="" title="" src="" width="150" /> ]( "The Compound Effect - Darren hardy")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
+🤗[<img alt="The Compound Effect - Darren hardy" title="The Compound Effect - Darren hardy" src="https://m.media-amazon.com/images/I/51Bz60iDotL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
 
 </details>
