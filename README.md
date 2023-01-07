@@ -123,26 +123,23 @@
 <br>
 </details>
 <details close>
-<summary> Other Books 
-📚</summary>
+<summary> Other Books 📚</summary>
 
 
-📚[<img alt="" title="" src="" width="150" /> ]( "MCQ in CS")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/MCQ%20in%20CS.pdf)<br>
+📚[<img alt="MCQ in CS" title="MCQ in CS" src="https://static.kopykitab.com/image/cache/data/laxmi-publications/lax434-300x380.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/MCQ%20in%20CS.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "Pro GIT")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Pro%20GIT.pdf)<br>
+📚[<img alt="Pro GIT" title="Pro GIT" src="https://m.media-amazon.com/images/I/517gWfd01xL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Pro%20GIT.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "The web application hackers handbook")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/The%20web%20application%20hackers%20handbook.pdf)<br>
+📚[<img alt="The web application hackers handbook" title="The web application hackers handbook" src="https://m.media-amazon.com/images/I/51mzEbU-nBL._SX260_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/The%20web%20application%20hackers%20handbook.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "Excel Formulas")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Excel%20Formulas.pdf)<br>
+📚[<img alt="Excel Formulas" title="Excel Formulas" src="https://files.instapdf.in/wp-content/uploads/pdf-thumbnails/2022/04/excel-shortcut-list-pdf-295.webp" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Excel%20Formulas.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "excel-1")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/excel-1.pdf)<br>
+📚[<img alt="excel-1" title="excel-1" src="https://m.media-amazon.com/images/I/51ORx8XWJtL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/excel-1.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "Microsoft Excel for Beginners")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Microsoft%20Excel%20for%20Beginners.pdf)<br>
+📚[<img alt="Microsoft Excel for Beginners" title="Microsoft Excel for Beginners" src="https://m.media-amazon.com/images/I/51e2aZzURLL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Microsoft%20Excel%20for%20Beginners.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "Problem Solving Tools")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Problem%20Solving%20Tools.pdf)<br>
+📚[<img alt="Problem Solving Tools" title="Problem Solving Tools" src="https://m.media-amazon.com/images/I/511QX2E002L._SX349_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Problem%20Solving%20Tools.pdf)<br>
 
-📚[<img alt="" title="" src="" width="150" /> ]( "SDE-SHEET")](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/SDE-SHEET.docx)<br>
-</details>
 
 <details close>
 <summary> Timepass 
