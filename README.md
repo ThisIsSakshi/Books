@@ -140,7 +140,7 @@
 
 📚[<img alt="Problem Solving Tools" title="Problem Solving Tools" src="https://m.media-amazon.com/images/I/511QX2E002L._SX349_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Problem%20Solving%20Tools.pdf)<br>
 
-
+</details>
 <details close>
 <summary> Timepass 🤗</summary>
   
