@@ -145,7 +145,7 @@
 <summary> Timepass 🤗</summary>
   
 
-🤗[<img alt="Atomic Habits by James Clear" title="Atomic Habits by James Clear" src="https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" width="150" /> ]( "Atomic Habits by James Clear")](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Atomic%20Habits%20by%20James%20Clear.pdf)<br>
+🤗[<img alt="Atomic Habits by James Clear" title="Atomic Habits by James Clear" src="https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Atomic%20Habits%20by%20James%20Clear.pdf)<br>
 
 🤗[<img alt="Ikigai" title="Ikigai" src="https://m.media-amazon.com/images/I/814L+vq01mL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Ikigai.pdf)<br>
 
