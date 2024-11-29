@@ -157,8 +157,8 @@
 
 🤗[<img alt="The Compound Effect - Darren hardy" title="The Compound Effect - Darren hardy" src="https://m.media-amazon.com/images/I/51Bz60iDotL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
 
-🤗[<img alt="7 habits of highly effective people" title="7 habits of highly effective people" src="https://m.media-amazon.com/images/I/71RNHgnCHFL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
+🤗[<img alt="7 habits of highly effective people" title="7 habits of highly effective people" src="https://m.media-amazon.com/images/I/71RNHgnCHFL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%207%20Habits%20Of%20Highly%20Effective%20People.pdf)<br>
 
-🤗[<img alt="Eat That Frog!" title="Eat That Frog!" src="https://m.media-amazon.com/images/I/61ZNAnIrwwL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
+🤗[<img alt="Eat That Frog!" title="Eat That Frog!" src="https://m.media-amazon.com/images/I/61ZNAnIrwwL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Eat%20that%20frog%20by%20brian%20tracy.pdf)<br>
 
 </details>
