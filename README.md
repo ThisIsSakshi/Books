@@ -62,7 +62,7 @@
 
 🤖[<img alt="Python-for-Data-Analysis" title="Python-for-Data-Analysis" src="https://m.media-amazon.com/images/I/51HuYEwAl2L._SX379_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Python-for-Data-Analysis.pdf)<br>
 
-🤖[<img alt="800 Data Science Questions" title="800 Data Science Questions" src="https://media.licdn.com/dms/image/C561FAQFRVx0-oPyzSA/feedshare-document-images_800/1/1632827922604?e=1673481600&v=beta&t=xjhJvMqoQig-DNivlUE_ds0UNpZPmyQNxmiRJDONCmY" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/800%20Data%20Science%20Questions.pdf)<br>
+🤖[<img alt="800 Data Science Questions" title="800 Data Science Questions" src="https://imgv2-2-f.scribdassets.com/img/document/531143349/original/574cb372ba/1729994269" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/800%20Data%20Science%20Questions.pdf)<br>
 
 🤖[<img alt="AI CheatSheet" title="AI CheatSheet" src="https://wallpapercave.com/wp/wp2042162.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/AI%20CheatSheet.pdf)<br>
 
@@ -156,5 +156,9 @@
 🤗[<img alt="The 5 AM Club - Robin Sharma" title="The 5 AM Club - Robin Sharma" src="https://m.media-amazon.com/images/I/71zytzrg6lL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%205%20AM%20Club%20-%20Robin%20Sharma.pdf)<br>
 
 🤗[<img alt="The Compound Effect - Darren hardy" title="The Compound Effect - Darren hardy" src="https://m.media-amazon.com/images/I/51Bz60iDotL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
+
+🤗[<img alt="7 habits of highly effective people" title="7 habits of highly effective people" src="https://m.media-amazon.com/images/I/71RNHgnCHFL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
+
+🤗[<img alt="Eat That Frog!" title="Eat That Frog!" src="https://m.media-amazon.com/images/I/61ZNAnIrwwL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Compound%20Effect%20-%20Darren%20hardy.pdf)<br>
 
 </details>
