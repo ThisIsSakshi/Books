@@ -266,7 +266,7 @@
 </tr>
 <tr>
 <td align="center" width="33%">
-  <a href="https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Excel%20Formulas.pdf"><img src="https://files.instapdf.in/wp-content/uploads/pdf-thumbnails/2022/04/excel-shortcut-list-pdf-295.webp" alt="📚 Excel Formulas" title="📚 Excel Formulas" width="150" /></a><br>
+  <a href="https://github.com/ThisIsSakshi/Books/blob/master/Other%20Books%20%F0%9F%93%9A/Excel%20Formulas.pdf"><img src="https://m.media-amazon.com/images/I/610Mrwz9NNL._SY522_.jpg" alt="📚 Excel Formulas" title="📚 Excel Formulas" width="150" /></a><br>
   <sub><b>📚 Excel Formulas</b></sub>
 </td>
 <td align="center" width="33%">
