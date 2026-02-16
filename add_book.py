@@ -24,6 +24,15 @@ SECTION_ORDER = [
     "Timepass 🤗",
 ]
 
+SECTION_EMOJI = {
+    "Python Love ❤️": "❤️",
+    "ML 🤖": "🤖",
+    "System Design 💻": "💻",
+    "Interview Specific 📖": "📖",
+    "Other Books 📚": "📚",
+    "Timepass 🤗": "🤗",
+}
+
 SUMMARY_TO_FOLDER = (
     ("python", "Python Love ❤️"),
     ("machine learning", "ML 🤖"),
@@ -202,9 +211,12 @@ def collect_books(root: Path, existing_order: dict[str, list[str]]) -> dict[str,
     return books_by_folder
 
 
-def book_card(relative_path: Path, base_url: str, src_by_path: dict[str, str]) -> str:
+def book_card(folder: str, relative_path: Path, base_url: str, src_by_path: dict[str, str]) -> str:
     relative = relative_path.as_posix()
-    title = html.escape(relative_path.stem)
+    emoji = SECTION_EMOJI.get(folder, "")
+    raw_title = relative_path.stem
+    title_with_emoji = f"{emoji} {raw_title}".strip()
+    title = html.escape(title_with_emoji)
     encoded_path = quote(relative, safe="/")
     url = f"{base_url}{encoded_path}"
     src = html.escape(src_by_path.get(relative, ""))
@@ -217,6 +229,7 @@ def book_card(relative_path: Path, base_url: str, src_by_path: dict[str, str]) -
 
 
 def build_table_lines(
+    folder: str,
     books: list[Path],
     base_url: str,
     src_by_path: dict[str, str],
@@ -230,7 +243,7 @@ def build_table_lines(
         chunk = books[i : i + COLUMNS]
         lines.append("<tr>\n")
         for book in chunk:
-            lines.append(book_card(book, base_url, src_by_path))
+            lines.append(book_card(folder, book, base_url, src_by_path))
         for _ in range(COLUMNS - len(chunk)):
             lines.append('<td align="center" width="33%"></td>\n')
         lines.append("</tr>\n")
@@ -247,7 +260,12 @@ def render_readme(
 ) -> list[str]:
     updated = lines[:]
     for section in sorted(sections, key=lambda item: item.summary_end_index, reverse=True):
-        body = build_table_lines(books_by_folder.get(section.folder, []), base_url, src_by_path)
+        body = build_table_lines(
+            section.folder,
+            books_by_folder.get(section.folder, []),
+            base_url,
+            src_by_path,
+        )
         start = section.summary_end_index + 1
         end = section.details_end_index
         updated[start:end] = body
