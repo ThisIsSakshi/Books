@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""Append newly added books to README without modifying existing entries."""
+"""Render README sections as a 3-column library view and include new books."""
 
 from __future__ import annotations
 
 import argparse
 import html
 import re
-from collections import defaultdict
+from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import quote, unquote
 
 BOOK_EXTENSIONS = {".pdf", ".rar", ".epub", ".mobi", ".azw3"}
 DEFAULT_BASE_URL = "https://github.com/ThisIsSakshi/Books/blob/master/"
+COLUMNS = 3
 
 SECTION_ORDER = [
     "Python Love ❤️",
@@ -22,15 +23,6 @@ SECTION_ORDER = [
     "Timepass 🤗",
 ]
 
-SECTION_EMOJI = {
-    "Python Love ❤️": "❤️",
-    "ML 🤖": "🤖",
-    "System Design 💻": "💻",
-    "Interview Specific 📖": "📖",
-    "Other Books 📚": "📚",
-    "Timepass 🤗": "🤗",
-}
-
 SUMMARY_TO_FOLDER = (
     ("python", "Python Love ❤️"),
     ("machine learning", "ML 🤖"),
@@ -40,12 +32,26 @@ SUMMARY_TO_FOLDER = (
     ("timepass", "Timepass 🤗"),
 )
 
+LINK_RE = re.compile(
+    r"<img[^>]*src=\"([^\"]*)\"[^>]*>\s*\]\("
+    r"https://github\.com/[^\s)]+/blob/[^\s)]+"
+)
+
+PATH_RE = re.compile(r"https://github\.com/[^\s)]+/blob/[^\s)]+")
+
+
+@dataclass
+class SectionSpan:
+    folder: str
+    summary_end_index: int
+    details_end_index: int
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Find newly added books and append them to README while leaving existing "
-            "content unchanged."
+            "Build a 3-column library view inside existing README dropdown sections "
+            "and add any new book files."
         )
     )
     parser.add_argument("--root", default=".", help="Repository root directory")
@@ -53,7 +59,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Show what would be added without writing files",
+        help="Show what would change without writing files",
     )
     return parser.parse_args()
 
@@ -63,24 +69,59 @@ def detect_base_url(readme_text: str) -> str:
     return match.group(1) if match else DEFAULT_BASE_URL
 
 
-def extract_linked_paths(readme_text: str) -> set[str]:
-    linked_paths: set[str] = set()
-    links = re.findall(r"https://github\.com/[^\s)]+/blob/[^\s)]+", readme_text)
-    for link in links:
-        clean_link = link.split("?", 1)[0]
-        blob_split = clean_link.split("/blob/", 1)
+def extract_existing_image_sources(readme_text: str) -> dict[str, str]:
+    path_to_src: dict[str, str] = {}
+    lines = readme_text.splitlines()
+    for line in lines:
+        path_match = PATH_RE.search(line)
+        if not path_match:
+            continue
+        src_match = LINK_RE.search(line)
+        if not src_match:
+            continue
+        src = src_match.group(1)
+        link = path_match.group(0).split("?", 1)[0]
+        blob_split = link.split("/blob/", 1)
         if len(blob_split) != 2:
             continue
         branch_split = blob_split[1].split("/", 1)
         if len(branch_split) != 2:
             continue
-        encoded_path = branch_split[1]
-        linked_paths.add(unquote(encoded_path))
-    return linked_paths
+        decoded = unquote(branch_split[1])
+        existing = path_to_src.get(decoded, "")
+        if existing:
+            continue
+        path_to_src[decoded] = src
+    return path_to_src
 
 
-def find_section_boundaries(lines: list[str]) -> dict[str, int]:
-    boundaries: dict[str, int] = {}
+def extract_existing_order(readme_text: str) -> dict[str, list[str]]:
+    order: dict[str, list[str]] = {folder: [] for folder in SECTION_ORDER}
+    seen: set[str] = set()
+    for line in readme_text.splitlines():
+        path_match = PATH_RE.search(line)
+        if not path_match:
+            continue
+        link = path_match.group(0).split("?", 1)[0]
+        blob_split = link.split("/blob/", 1)
+        if len(blob_split) != 2:
+            continue
+        branch_split = blob_split[1].split("/", 1)
+        if len(branch_split) != 2:
+            continue
+        decoded = unquote(branch_split[1])
+        if decoded in seen:
+            continue
+        for folder in SECTION_ORDER:
+            if decoded.startswith(f"{folder}/"):
+                order[folder].append(decoded)
+                seen.add(decoded)
+                break
+    return order
+
+
+def find_sections(lines: list[str]) -> list[SectionSpan]:
+    sections: list[SectionSpan] = []
     index = 0
     while index < len(lines):
         if "<details" not in lines[index]:
@@ -89,11 +130,16 @@ def find_section_boundaries(lines: list[str]) -> dict[str, int]:
 
         summary_lines = []
         probe = index + 1
+        summary_end = -1
         while probe < len(lines):
             summary_lines.append(lines[probe])
             if "</summary>" in lines[probe]:
+                summary_end = probe
                 break
             probe += 1
+        if summary_end == -1:
+            index += 1
+            continue
 
         summary_text = " ".join(summary_lines).lower()
         folder = None
@@ -102,102 +148,145 @@ def find_section_boundaries(lines: list[str]) -> dict[str, int]:
                 folder = mapped_folder
                 break
 
-        while probe < len(lines) and "</details>" not in lines[probe]:
-            probe += 1
+        details_end = summary_end + 1
+        while details_end < len(lines) and "</details>" not in lines[details_end]:
+            details_end += 1
 
-        if folder and probe < len(lines):
-            boundaries[folder] = probe
-        index = probe + 1
-    return boundaries
+        if folder and details_end < len(lines):
+            sections.append(
+                SectionSpan(
+                    folder=folder,
+                    summary_end_index=summary_end,
+                    details_end_index=details_end,
+                )
+            )
+        index = details_end + 1
+    return sections
 
 
-def collect_new_books(root: Path, linked_paths: set[str]) -> dict[str, list[Path]]:
-    new_books: dict[str, list[Path]] = defaultdict(list)
+def collect_books(root: Path, existing_order: dict[str, list[str]]) -> dict[str, list[Path]]:
+    books_by_folder: dict[str, list[Path]] = {}
     for folder in SECTION_ORDER:
         folder_path = root / folder
         if not folder_path.exists():
+            books_by_folder[folder] = []
             continue
+        disk_paths: dict[str, Path] = {}
         for path in sorted(folder_path.rglob("*")):
             if not path.is_file() or path.suffix.lower() not in BOOK_EXTENSIONS:
                 continue
             relative = path.relative_to(root)
-            if relative.as_posix() not in linked_paths:
-                new_books[folder].append(relative)
-    return new_books
+            disk_paths[relative.as_posix()] = relative
+
+        books: list[Path] = []
+        for existing in existing_order.get(folder, []):
+            relative = disk_paths.pop(existing, None)
+            if relative is not None:
+                books.append(relative)
+        for relative in sorted(disk_paths.values(), key=lambda item: item.as_posix().lower()):
+            books.append(relative)
+        books_by_folder[folder] = books
+    return books_by_folder
 
 
-def build_entry(folder: str, relative_path: Path, base_url: str) -> str:
+def book_card(relative_path: Path, base_url: str, src_by_path: dict[str, str]) -> str:
+    relative = relative_path.as_posix()
     title = html.escape(relative_path.stem)
-    encoded_path = quote(relative_path.as_posix(), safe="/")
+    encoded_path = quote(relative, safe="/")
     url = f"{base_url}{encoded_path}"
-    emoji = SECTION_EMOJI[folder]
-    return f'{emoji}[<img alt="{title}" title="{title}" src="" width="150" /> ]({url})<br>'
+    src = html.escape(src_by_path.get(relative, ""))
+    return (
+        '<td align="center" width="33%">\n'
+        f'  <a href="{url}"><img src="{src}" alt="{title}" title="{title}" width="150" /></a><br>\n'
+        f"  <sub><b>{title}</b></sub>\n"
+        "</td>\n"
+    )
 
 
-def apply_updates(
-    lines: list[str],
-    section_boundaries: dict[str, int],
-    new_books: dict[str, list[Path]],
+def build_table_lines(
+    books: list[Path],
     base_url: str,
+    src_by_path: dict[str, str],
 ) -> list[str]:
-    insert_plan = []
-    for folder, books in new_books.items():
-        if not books:
-            continue
-        boundary = section_boundaries.get(folder)
-        if boundary is None:
-            continue
-        entries = []
-        entries.append("\n")
-        for book in books:
-            entries.append(build_entry(folder, book, base_url) + "\n")
-            entries.append("\n")
-        insert_plan.append((boundary, entries))
+    lines: list[str] = ["\n", "<table>\n"]
+    if not books:
+        lines.extend(["</table>\n", "\n"])
+        return lines
 
-    updated_lines = lines[:]
-    for boundary, entries in sorted(insert_plan, key=lambda item: item[0], reverse=True):
-        updated_lines[boundary:boundary] = entries
-    return updated_lines
+    for i in range(0, len(books), COLUMNS):
+        chunk = books[i : i + COLUMNS]
+        lines.append("<tr>\n")
+        for book in chunk:
+            lines.append(book_card(book, base_url, src_by_path))
+        for _ in range(COLUMNS - len(chunk)):
+            lines.append('<td align="center" width="33%"></td>\n')
+        lines.append("</tr>\n")
+    lines.extend(["</table>\n", "\n"])
+    return lines
+
+
+def render_readme(
+    lines: list[str],
+    sections: list[SectionSpan],
+    books_by_folder: dict[str, list[Path]],
+    base_url: str,
+    src_by_path: dict[str, str],
+) -> list[str]:
+    updated = lines[:]
+    for section in sorted(sections, key=lambda item: item.summary_end_index, reverse=True):
+        body = build_table_lines(books_by_folder.get(section.folder, []), base_url, src_by_path)
+        start = section.summary_end_index + 1
+        end = section.details_end_index
+        updated[start:end] = body
+    return updated
+
+
+def print_new_books(books_by_folder: dict[str, list[Path]], src_by_path: dict[str, str]) -> int:
+    count = 0
+    for folder in SECTION_ORDER:
+        for book in books_by_folder.get(folder, []):
+            if book.as_posix() in src_by_path:
+                continue
+            count += 1
+            print(f"New book: {book.as_posix()} -> {folder}")
+    return count
 
 
 def main() -> int:
     args = parse_args()
     root = Path(args.root).resolve()
     readme_path = root / args.readme
-
     if not readme_path.exists():
         print(f"README not found: {readme_path}")
         return 1
 
     readme_text = readme_path.read_text(encoding="utf-8")
     lines = readme_text.splitlines(keepends=True)
-
     base_url = detect_base_url(readme_text)
-    linked_paths = extract_linked_paths(readme_text)
-    section_boundaries = find_section_boundaries(lines)
-    new_books = collect_new_books(root, linked_paths)
+    src_by_path = extract_existing_image_sources(readme_text)
+    existing_order = extract_existing_order(readme_text)
+    books_by_folder = collect_books(root, existing_order)
+    sections = find_sections(lines)
+    if not sections:
+        print("No supported dropdown sections found. README not modified.")
+        return 1
 
-    pending = {folder: books for folder, books in new_books.items() if books}
-    if not pending:
-        print("No new books found.")
+    new_count = print_new_books(books_by_folder, src_by_path)
+    if new_count == 0:
+        print("No new books detected. Reformatting section layout only.")
+
+    updated_lines = render_readme(lines, sections, books_by_folder, base_url, src_by_path)
+    updated_text = "".join(updated_lines)
+    if updated_text == readme_text:
+        print("README already up-to-date.")
         return 0
-
-    for folder, books in pending.items():
-        for book in books:
-            print(f"Will add: {book.as_posix()} -> {folder}")
 
     if args.dry_run:
         print("\nDry run complete. README was not modified.")
         return 0
 
-    updated_lines = apply_updates(lines, section_boundaries, pending, base_url)
-    updated_text = "".join(updated_lines)
-    if updated_text == readme_text:
-        print("No applicable section found for new books. README not modified.")
-        return 0
-
     readme_path.write_text(updated_text, encoding="utf-8")
-    print(f"\nAdded {sum(len(books) for books in pending.values())} new book(s) to {readme_path}")
+    print(f"\nUpdated library view in {readme_path}")
     return 0
 
 
