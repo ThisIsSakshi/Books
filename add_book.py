@@ -13,6 +13,7 @@ from urllib.parse import quote, unquote
 BOOK_EXTENSIONS = {".pdf", ".rar", ".epub", ".mobi", ".azw3"}
 DEFAULT_BASE_URL = "https://github.com/ThisIsSakshi/Books/blob/master/"
 COLUMNS = 3
+FALLBACK_FOLDER = "Other Books 📚"
 
 SECTION_ORDER = [
     "Python Love ❤️",
@@ -32,12 +33,14 @@ SUMMARY_TO_FOLDER = (
     ("timepass", "Timepass 🤗"),
 )
 
-LINK_RE = re.compile(
-    r"<img[^>]*src=\"([^\"]*)\"[^>]*>\s*\]\("
-    r"https://github\.com/[^\s)]+/blob/[^\s)]+"
+BLOB_LINK_RE = re.compile(r"https://github\.com/[^\"'\s)]+/blob/[^\"'\s)]+")
+MARKDOWN_CARD_RE = re.compile(
+    r"<img[^>]*src=\"([^\"]*)\"[^>]*>\s*\]\((https://github\.com/[^\s)]+/blob/[^\s)]+)\)"
 )
-
-PATH_RE = re.compile(r"https://github\.com/[^\s)]+/blob/[^\s)]+")
+HTML_CARD_RE = re.compile(
+    r"<a[^>]*href=\"(https://github\.com/[^\"]+/blob/[^\"]+)\"[^>]*>\s*<img[^>]*src=\"([^\"]*)\"",
+    re.IGNORECASE,
+)
 
 
 @dataclass
@@ -69,47 +72,49 @@ def detect_base_url(readme_text: str) -> str:
     return match.group(1) if match else DEFAULT_BASE_URL
 
 
+def decode_blob_path(link: str) -> str | None:
+    clean = link.split("?", 1)[0]
+    blob_split = clean.split("/blob/", 1)
+    if len(blob_split) != 2:
+        return None
+    branch_split = blob_split[1].split("/", 1)
+    if len(branch_split) != 2:
+        return None
+    return unquote(branch_split[1])
+
+
 def extract_existing_image_sources(readme_text: str) -> dict[str, str]:
     path_to_src: dict[str, str] = {}
-    lines = readme_text.splitlines()
-    for line in lines:
-        path_match = PATH_RE.search(line)
-        if not path_match:
+
+    for match in MARKDOWN_CARD_RE.finditer(readme_text):
+        src, link = match.group(1), match.group(2)
+        decoded = decode_blob_path(link)
+        if decoded is None:
             continue
-        src_match = LINK_RE.search(line)
-        if not src_match:
+        current = path_to_src.get(decoded)
+        if current is None or (not current and src):
+            path_to_src[decoded] = src
+
+    for match in HTML_CARD_RE.finditer(readme_text):
+        link, src = match.group(1), match.group(2)
+        decoded = decode_blob_path(link)
+        if decoded is None:
             continue
-        src = src_match.group(1)
-        link = path_match.group(0).split("?", 1)[0]
-        blob_split = link.split("/blob/", 1)
-        if len(blob_split) != 2:
-            continue
-        branch_split = blob_split[1].split("/", 1)
-        if len(branch_split) != 2:
-            continue
-        decoded = unquote(branch_split[1])
-        existing = path_to_src.get(decoded, "")
-        if existing:
-            continue
-        path_to_src[decoded] = src
+        current = path_to_src.get(decoded)
+        if current is None or (not current and src):
+            path_to_src[decoded] = src
+
     return path_to_src
 
 
 def extract_existing_order(readme_text: str) -> dict[str, list[str]]:
     order: dict[str, list[str]] = {folder: [] for folder in SECTION_ORDER}
     seen: set[str] = set()
-    for line in readme_text.splitlines():
-        path_match = PATH_RE.search(line)
-        if not path_match:
+
+    for match in BLOB_LINK_RE.finditer(readme_text):
+        decoded = decode_blob_path(match.group(0))
+        if decoded is None:
             continue
-        link = path_match.group(0).split("?", 1)[0]
-        blob_split = link.split("/blob/", 1)
-        if len(blob_split) != 2:
-            continue
-        branch_split = blob_split[1].split("/", 1)
-        if len(branch_split) != 2:
-            continue
-        decoded = unquote(branch_split[1])
         if decoded in seen:
             continue
         for folder in SECTION_ORDER:
@@ -165,19 +170,27 @@ def find_sections(lines: list[str]) -> list[SectionSpan]:
 
 
 def collect_books(root: Path, existing_order: dict[str, list[str]]) -> dict[str, list[Path]]:
-    books_by_folder: dict[str, list[Path]] = {}
-    for folder in SECTION_ORDER:
-        folder_path = root / folder
-        if not folder_path.exists():
-            books_by_folder[folder] = []
-            continue
-        disk_paths: dict[str, Path] = {}
-        for path in sorted(folder_path.rglob("*")):
-            if not path.is_file() or path.suffix.lower() not in BOOK_EXTENSIONS:
-                continue
-            relative = path.relative_to(root)
-            disk_paths[relative.as_posix()] = relative
+    books_by_folder: dict[str, list[Path]] = {folder: [] for folder in SECTION_ORDER}
+    disk_paths_by_folder: dict[str, dict[str, Path]] = {folder: {} for folder in SECTION_ORDER}
 
+    for path in sorted(root.rglob("*")):
+        if not path.is_file():
+            continue
+        if ".git" in path.parts:
+            continue
+        if path.suffix.lower() not in BOOK_EXTENSIONS:
+            continue
+
+        relative = path.relative_to(root)
+        parts = relative.parts
+        if not parts:
+            continue
+        top_level = parts[0]
+        folder = top_level if top_level in SECTION_ORDER else FALLBACK_FOLDER
+        disk_paths_by_folder[folder][relative.as_posix()] = relative
+
+    for folder in SECTION_ORDER:
+        disk_paths = disk_paths_by_folder[folder]
         books: list[Path] = []
         for existing in existing_order.get(folder, []):
             relative = disk_paths.pop(existing, None)
@@ -241,11 +254,11 @@ def render_readme(
     return updated
 
 
-def print_new_books(books_by_folder: dict[str, list[Path]], src_by_path: dict[str, str]) -> int:
+def print_new_books(books_by_folder: dict[str, list[Path]], known_paths: set[str]) -> int:
     count = 0
     for folder in SECTION_ORDER:
         for book in books_by_folder.get(folder, []):
-            if book.as_posix() in src_by_path:
+            if book.as_posix() in known_paths:
                 continue
             count += 1
             print(f"New book: {book.as_posix()} -> {folder}")
@@ -265,13 +278,14 @@ def main() -> int:
     base_url = detect_base_url(readme_text)
     src_by_path = extract_existing_image_sources(readme_text)
     existing_order = extract_existing_order(readme_text)
+    known_paths = {path for paths in existing_order.values() for path in paths}
     books_by_folder = collect_books(root, existing_order)
     sections = find_sections(lines)
     if not sections:
         print("No supported dropdown sections found. README not modified.")
         return 1
 
-    new_count = print_new_books(books_by_folder, src_by_path)
+    new_count = print_new_books(books_by_folder, known_paths)
     if new_count == 0:
         print("No new books detected. Reformatting section layout only.")
 
