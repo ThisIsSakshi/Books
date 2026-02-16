@@ -18,7 +18,7 @@
 
 ❤️[<img alt="Think Python" title="Think Python" src="https://m.media-amazon.com/images/I/71ND9kxGLGL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)
 
-❤️[<img alt="Python Tricks the book" title="Python Tricks the book" src="https://m.media-amazon.com/images/I/61k7Z74UuZL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Think%20Python.pdf)<br>
+❤️[<img alt="Python Tricks the book" title="Python Tricks the book" src="https://m.media-amazon.com/images/I/61k7Z74UuZL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Python%20Love%20%E2%9D%A4%EF%B8%8F/Python%20Tricks%20the%20book.pdf)<br>
 </details>
 
 <details close>
@@ -72,7 +72,7 @@
 
 🤖[<img alt="The Elements of Statistical Learning" title="The Elements of Statistical Learning" src="https://m.media-amazon.com/images/I/41TmbdP0EZL._SX331_BO1,204,203,200_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/ESLII.pdf)<br>
 
-🤖[<img alt="Interview Questions" title="Interview Questions" src="https://static.javatpoint.com/interview/images/machine-learning-interview-questions.png" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Interview%20Questions.pdf)<br>
+🤖[<img alt="Interview Questions" title="Interview Questions" src="https://m.media-amazon.com/images/I/713hUEuCa+L._SY522_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Interview%20Questions.pdf)<br>
 
 🤖[<img alt="Machine Learning Projects Python" title="Machine Learning Projects Python" src="https://www.freetechbooks.com/uploads/1595756320-machine-learning-projects-python%201200x.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/ML%20%F0%9F%A4%96/Machine%20Learning%20Projects%20Python.pdf?raw=true)<br>
 
@@ -121,6 +121,9 @@
 
 📖[<img alt="SQL" title="SQL" src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/SQL-in-10-Minutes.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/SQL.pdf)
 <br>
+
+📖[<img alt="Cracking the coding interview 6th edition" title="Cracking the coding interview 6th edition" src="https://m.media-amazon.com/images/I/51BKztjHJAL.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Interview%20Specific%20%F0%9F%93%96/Cracking%20the%20coding%20interview%206th%20edition.pdf)<br>
+
 </details>
 <details close>
 <summary> Other Books 📚</summary>
@@ -160,5 +163,8 @@
 🤗[<img alt="7 habits of highly effective people" title="7 habits of highly effective people" src="https://m.media-amazon.com/images/I/71RNHgnCHFL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%207%20Habits%20Of%20Highly%20Effective%20People.pdf)<br>
 
 🤗[<img alt="Eat That Frog!" title="Eat That Frog!" src="https://m.media-amazon.com/images/I/61ZNAnIrwwL._AC_UF1000,1000_QL80_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/Eat%20that%20frog%20by%20brian%20tracy.pdf)<br>
+
+
+🤗[<img alt="The Secret (Rhonda Byrne)" title="The Secret (Rhonda Byrne)" src="https://m.media-amazon.com/images/I/51jr7Mv7xML._SX342_SY445_FMwebp_.jpg" width="150" /> ](https://github.com/ThisIsSakshi/Books/blob/master/Timepass%20%F0%9F%A4%97/The%20Secret%20%28Rhonda%20Byrne%29.pdf)<br>
 
 </details>
